@@ -7,9 +7,9 @@ I borrowed a lot of ideas on how to setup this repository to share from
 
 How to setup
 ------------
-`git clone git://github.com/russellcardullo/dotfiles ~/.dotfiles`
-`cd ~/.dotfiles`
-`rake install`
+- `git clone git://github.com/russellcardullo/dotfiles ~/.dotfiles`
+- `cd ~/.dotfiles`
+- `rake install`
 
 This will create a symlink in your home directory for anything under .dotfiles/ ending in `.symlink` 
 
