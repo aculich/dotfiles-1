@@ -1,4 +1,17 @@
 [user]
-name = Russell Cardullo
-email = russellcardullo@gmail.com
+	name = Russell Cardullo
+	email = russellcardullo@gmail.com
 
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = vim
+
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
