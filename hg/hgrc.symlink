@@ -1,0 +1,4 @@
+[ui]
+ssh = ssh -C
+username = Russell Cardullo <russellcardullo@gmail.com>
+
