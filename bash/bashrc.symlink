@@ -3,5 +3,7 @@ export EDITOR=/usr/bin/vim
 
 alias mvim="mvim --remote-tab-silent"
 
+. ~/.git_svn_bash_prompt
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
