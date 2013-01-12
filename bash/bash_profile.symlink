@@ -1,7 +1,7 @@
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export EDITOR=/usr/bin/vim
 
-alias mvim="mvim --remote-tab-silent"
+source ~/.bash_aliases
 
 . ~/.git_svn_bash_prompt
 
