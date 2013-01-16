@@ -1,2 +1,10 @@
+# ls aliases
+alias ll='ls -alh'
+alias la='ls -A'
+alias lsd='ls -alF | grep /$'
+
+# Get the size of folders below here
+alias folders='find . -maxdepth 1 -type d -print0 | xargs -0 du -sh | sort -rn'
+
 alias gst='git status'
 alias mvim='mvim --remote-tab-silent'
