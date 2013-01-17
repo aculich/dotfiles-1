@@ -8,7 +8,12 @@
 	editor = vim
 
 [alias]
-	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        l = log --stat
+	hist = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+        stat = shortlog -sn
+
+	co = checkout
+	st = status
 
 [color]
 	ui = true
