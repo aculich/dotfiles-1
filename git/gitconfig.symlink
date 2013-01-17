@@ -6,12 +6,12 @@
 	autocrlf = input
 	safecrlf = true
 	editor = vim
+	pager = less -r
 
 [alias]
-        l = log --stat
+	l = log --stat
 	hist = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
-        stat = shortlog -sn
-
+	stat = shortlog -sn
 	co = checkout
 	st = status
 
