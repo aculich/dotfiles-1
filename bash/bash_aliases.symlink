@@ -8,3 +8,7 @@ alias folders='find . -maxdepth 1 -type d -print0 | xargs -0 du -sh | sort -rn'
 
 alias gst='git status'
 alias mvim='mvim --remote-tab-silent'
+
+# Create an rvmrc file for the current directory
+alias mkrvmrc='d=`basename $(pwd)` && rvm --rvmrc --create 1.9.3@${d}'
+
