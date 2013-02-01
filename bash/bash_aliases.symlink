@@ -12,3 +12,4 @@ alias mvim='mvim --remote-tab-silent'
 # Create an rvmrc file for the current directory
 alias mkrvmrc='d=`basename $(pwd)` && rvm --rvmrc --create 1.9.3@${d}'
 
+alias be='bundle exec'
