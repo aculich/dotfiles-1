@@ -4,6 +4,9 @@ export EDITOR=/usr/bin/vim
 # import aliases
 source ~/.bash_aliases
 
+# Mac OSX specific functions
+source ~/.mac_functions
+
 # show svn status in current directory
 . ~/.git_svn_bash_prompt
 

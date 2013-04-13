@@ -13,3 +13,23 @@ alias mvim='mvim --remote-tab-silent'
 alias mkrvmrc='d=`basename $(pwd)` && rvm --rvmrc --create 1.9.3@${d}'
 
 alias be='bundle exec'
+
+# Reload bash config
+alias reload='source ~/.bashrc'
+
+# Display the OS
+alias os='uname -srm'
+
+# Display the time in GMT/UTC
+alias utc='TZ=UTC date'
+alias gmt='TZ=GMT date'
+
+# Display the time in EST
+alias est='TZ=US/Eastern date'
+
+# Display the time in New Zealand
+alias nzst='TZ=Pacific/Auckland date'
+
+# Print the directory structure from the current directory in tree format
+alias dirf="find . -type d|sed -e 's/[^-][^\/]*\//  |/g' -e 's/|\([^ ]\)/|-\1/'"
+
