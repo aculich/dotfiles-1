@@ -33,3 +33,5 @@ alias nzst='TZ=Pacific/Auckland date'
 # Print the directory structure from the current directory in tree format
 alias dirf="find . -type d|sed -e 's/[^-][^\/]*\//  |/g' -e 's/|\([^ ]\)/|-\1/'"
 
+# 256 colors for tmux
+alias tmux="TERM=screen-256color-bce tmux"
