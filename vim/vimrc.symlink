@@ -32,3 +32,7 @@ map <Leader>nt :NERDTreeToggle<CR>
 "  Load external modules
 " -----------------------------------------------------------------
 call pathogen#infect()
+
+" Automatically read file changes from disk
+set autoread
+
