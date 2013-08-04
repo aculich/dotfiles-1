@@ -1,2 +1,3 @@
 .netrwhist
 berkshelf/**/cookbooks
+berkshelf/**/default
