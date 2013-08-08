@@ -10,6 +10,9 @@ source ~/.mac_functions
 # show svn status in current directory
 . ~/.git_svn_bash_prompt
 
+# autocomplete for git
+. ~/.git-completion.bash
+
 # Color for man pages
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
