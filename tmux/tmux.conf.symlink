@@ -42,5 +42,9 @@ set-window-option -g clock-mode-colour colour64 #green
 # auto window rename
 set-window-option -g automatic-rename
 
+# use different keys to split vertical and horizonal
+bind | split-window -h
+bind - split-window -v
+
 # color
 set -g default-terminal "screen-256color"
