@@ -30,6 +30,9 @@ export HISTSIZE=10000
 HISTCONTROL=ignoredups
 export HISTIGNORE="&:ls:[bf]g:exit"
 
+# Scala installed via Homebrew
+export SCALA_HOME=/usr/local/Cellar/scala/2.9.3/libexec
+
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
