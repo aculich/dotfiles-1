@@ -34,3 +34,6 @@ alias dirf="find . -type d|sed -e 's/[^-][^\/]*\//  |/g' -e 's/|\([^ ]\)/|-\1/'"
 
 # 256 colors for tmux
 alias tmux="TERM=screen-256color-bce tmux"
+
+# Mour markdown editor
+alias mou="open /Applications/Mou.app"
