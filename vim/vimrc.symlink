@@ -50,9 +50,15 @@ call pathogen#infect()
 " Automatically read file changes from disk
 set autoread
 
+" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
 " Tab completion
 set wildmode=list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*,*.jar,*/target/**
 
 " -----------------------------------------------------------------
 " NERDTree configuration
