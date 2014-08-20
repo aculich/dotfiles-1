@@ -26,7 +26,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 
 # Colors for ls
 export CLICOLOR=1
-export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+export LSCOLORS=gxfxbEaEBxxEhEhBaDgxgx
 
 # Increase size of history
 export HISTFILESIZE=20000
