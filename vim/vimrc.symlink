@@ -10,7 +10,7 @@ filetype plugin on
 "  Set colorscheme
 " -----------------------------------------------------------------
 syntax enable
-colorscheme desert256
+colorscheme jellybeans
 
 " -----------------------------------------------------------------
 "  Text Formatting
