@@ -20,7 +20,9 @@ autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 autocmd FileType make set tabstop=8|set shiftwidth=8|set noexpandtab 
 autocmd FileType go set tabstop=8|set shiftwidth=8|set noexpandtab 
 
+" Display line numbers and column numbers
 set number
+set ruler
 
 " -----------------------------------------------------------------
 "  Remapping
