@@ -47,7 +47,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # set path for ngspice
-PATH=$PATH:/Applications/ngspice/bin/
+PATH=$PATH:/Applications/ngspice/bin
 
 # GOPATH
 export GOPATH=$HOME/projects/go/
