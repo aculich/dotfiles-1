@@ -1,0 +1,30 @@
+[submodule "vim/vim.symlink/bundle/vim-rails"]
+	path = vim/vim.symlink/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/vim.symlink/bundle/nerdtree"]
+	path = vim/vim.symlink/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/vim.symlink/bundle/vim-scala"]
+	path = vim/vim.symlink/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
+[submodule "vim/vim.symlink/bundle/vim-powerline"]
+	path = vim/vim.symlink/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/vim.symlink/bundle/vim-go"]
+	path = vim/vim.symlink/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim/vim.symlink/bundle/vim-gitgutter"]
+	path = vim/vim.symlink/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/vim.symlink/bundle/vim-processing"]
+	path = vim/vim.symlink/bundle/vim-processing
+	url = https://github.com/sophacles/vim-processing.git
+[submodule "vim/vim.symlink/bundle/nerdcommenter"]
+	path = vim/vim.symlink/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/vim.symlink/bundle/ag.vim"]
+	path = vim/vim.symlink/bundle/ag.vim
+	url = https://github.com/rking/ag.vim.git
+[submodule "vim/vim.symlink/bundle/command-t"]
+	path = vim/vim.symlink/bundle/command-t
+	url = https://github.com/wincent/command-t.git
