@@ -50,7 +50,7 @@ fi
 PATH=$PATH:/Applications/ngspice/bin
 
 # GOPATH
-export GOPATH=$HOME/projects/go/
+export GOPATH=$HOME/projects/go
 export PATH=$PATH:$GOPATH/bin
 
 # Load RVM into a shell session *as a function*
